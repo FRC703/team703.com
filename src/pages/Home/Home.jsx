@@ -1,5 +1,7 @@
 import React from "react";
-import { Container, Heading, Hero } from "react-bulma-components";
+import { Container, Heading, Hero, Level } from "react-bulma-components";
+import { Link } from "react-router-dom";
+import Navbar from "../../components/Navbar";
 
 export default class Home extends React.Component {
   render() {
@@ -13,6 +15,7 @@ export default class Home extends React.Component {
             </Container>
           </Hero.Body>
         </Hero>
+        <Navbar></Navbar>
         <Container></Container>
       </div>
     );
