@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.less";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 import { Container } from "react-bulma-components";
 
@@ -10,9 +10,13 @@ import Team from "./pages/Team/Team";
 import SARA from "./pages/SARA/SARA";
 import Contact from "./pages/Contact/Contact";
 
+import { createHashHistory } from "history";
+
+const history = createHashHistory();
+
 function App() {
   return (
-    <Router>
+    <Router history={history}>
       <Route exact path="/" component={Home}></Route>
       <Route path="/sara" component={SARA}></Route>
       <Route path="/events" component={Events}></Route>
