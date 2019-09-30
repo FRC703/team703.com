@@ -2,7 +2,7 @@ import React from "react";
 import "./App.less";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 
-import { Container } from "react-bulma-components";
+import { Container } from "bloomer/lib/layout/Container";
 
 import Home from "./pages/Home/Home";
 import Events from "./pages/Events/Events";

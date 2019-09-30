@@ -7,6 +7,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <div>
+        <Navbar homePage={true}></Navbar>
         <Hero color="dark" size="fullheight">
           <Hero.Body>
             <Container>
@@ -15,8 +16,76 @@ export default class Home extends React.Component {
             </Container>
           </Hero.Body>
         </Hero>
-        <Navbar></Navbar>
-        <Container></Container>
+        <Container>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        <div>This is just a bunch of filler</div>
+        </Container>
       </div>
     );
   }
