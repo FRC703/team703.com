@@ -1,0 +1,29 @@
+@import "colors";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  background: url("../assets/textures/carbon-fibre.png"),
+    linear-gradient(to right, $black, lighten($black, 8%), $black);
+}
+body.big {
+  background: url("../assets/textures/carbon-fibre-big.png"),
+    linear-gradient(to right, $black, lighten($black, 8%), $black);
+}
+body.v2 {
+  background: url("../assets/textures/carbon-fibre-v2.png"),
+    linear-gradient(to right, $black, lighten($black, 8%), $black);
+}
